@@ -1,0 +1,16 @@
+POST /InfoTransit/userservices.asmx HTTP/1.1
+Host: 10.0.2.52
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <GetBusStopsList xmlns="http://miz.it/infotransit">
+      <auth>
+        <user>sNb14SepBatb</user>
+        <password>E1mfMII84Vy1U1e</password>
+      </auth>
+    </GetBusStopsList>
+  </soap12:Body>
+</soap12:Envelope>
